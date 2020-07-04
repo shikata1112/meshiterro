@@ -8,7 +8,6 @@
                         <h2 class="form-header-title">ユーザー登録</h2>
                     </div>
                     <div class="form-body">
-
                       <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
         <%= render "devise/shared/error_messages", resource: resource %>
     <div class="form-group has-icon">
@@ -32,9 +31,9 @@
          <span class="fa fa-check-circle-o form-control-icon" aria-hidden="true"></span>
     </div>
         <%= f.submit "新規登録", class:"btn btn-lg btn-block btn-base-1 mt-20" %>
-    <% end %>
+    <% end %> 
 
-                    </div>
+         </div>
                 </div>
             </div>
         </div>
